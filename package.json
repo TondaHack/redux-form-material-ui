@@ -1,12 +1,12 @@
 {
-  "name": "redux-form-material-ui",
-  "version": "4.2.0",
+  "name": "@tondahack/redux-form-material-ui",
+  "version": "0.0.1",
   "description": "An adapter between Redux Form and Material UI components",
   "main": "./lib/index.js",
   "jsnext:main": "./es/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikras/redux-form-material-ui"
+    "url": "https://github.com/TondaHack/redux-form-material-ui"
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:es && npm run build:umd && npm run build:umd:min",

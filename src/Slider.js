@@ -7,6 +7,7 @@ export default createComponent(Slider, ({
   onChange: onChangeFromField,
   defaultValue,
   meta,
+  onChangeCustom,
   ...props
 }) => ({
   // eslint-disable-line no-unused-vars
@@ -14,7 +15,7 @@ export default createComponent(Slider, ({
   name,
   value,
   onChange: (event, value) => {
-    onChange(value)
+    onChangeCustom ? onChangeCustom(event, value, onChange) : onChange(value)
     if (onChangeFromField) {
       onChangeFromField(value)
     }
