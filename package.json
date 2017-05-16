@@ -1,6 +1,6 @@
 {
   "name": "@tondahack/redux-form-material-ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An adapter between Redux Form and Material UI components",
   "main": "./lib/index.js",
   "jsnext:main": "./es/index.js",
